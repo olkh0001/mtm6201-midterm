@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>midterm</title>
+    <title>The Cake Shop - Homepage</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/61a7836a1f.js" crossorigin="anonymous"></script>
     <link href="http://fonts.cdnfonts.com/css/louis-george-cafe" rel="stylesheet">
@@ -19,8 +19,8 @@
                     <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
                     <li><a href="http://127.0.0.1:5500/about.html" target="_blank">About</a></li>
                     <li><a href="#">Products</a></li>
-                    <li><a href="http://127.0.0.1:5500/contact.html" target="_blank">Contact<i class="fa-solid fa-cart-shopping"></i><i class="fa-solid fa-magnifying-glass"></i> </a></i>
-                </ul></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html" target="_blank">Contact</a><i class="fa-solid fa-cart-shopping"></i><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
             </nav>
         </div>
         <div class="banner">
@@ -48,9 +48,9 @@
                 <h3>Ottawa's first 100% nut free & 
                 peanut free specialty cake shop</h3>
                 <p>We create, You indulge!</p>
-                <a href="http://127.0.0.1:5500/about.html" target="_blank">
+                <form style="display: inline" action="http://127.0.0.1:5500/about.html" method="get">
                 <button class="learn-more">Learn more</button>
-                </a>
+                </form>
             </div>
         </div>
         <div class="grid-cakes">
@@ -60,9 +60,9 @@
             <article class="box1">
                 <h2>Customize your cake!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Deserunt, id, voluptas earum sint inventore est eius similique dolore officia officiis, perferendis molestiae. Pariatur possimus tempore nemo rem unde mollitia perspiciatis?</p>
-                <a href="#">
+                <form style="display: inline" action="#" method="get">
                     <button class="customize-btn">Customize cake</button>
-                </a>
+            </form>
             </article>
             <img class="yellow-cake"
             src="images/yellow-cake.jpg"
@@ -70,9 +70,9 @@
             <article class="box2">
                 <h2>Everyday items in store</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dicta sapiente alias repudiandae! Recusandae a magnam minus, modi aspernatur ex? Perferendis dolorum a fugiat officia, veniam tempora ipsum pariatur soluta.</p>
-                <a href="#">
-                    <button class="shop-btn">Shop now</button>
-                </a>
+                <form style="display: inline" action="#" method="get">
+                    <button class="shop">Shop now</button>
+                </form>
             </article>    
         </div>
         <div class="mocha-cake">
@@ -103,9 +103,9 @@
                     & chocolate mixed). Coffee butter-
                     cream frosting in between the layers.
                     Vanilla Buttercream outer.</p>
-                <a href="#">
+                <form style="display: inline" action="#" method="get">
                 <button class="add-to-cart-btn">Add to cart</button>
-            </a>
+                </form>
             </article>
         </div>
         <div class="kitkat-velvet">
@@ -129,10 +129,10 @@
                     src="images/kitkat-cake.jpg"
                     alt="an image of a kitkat cake">
                 </picture>
-                <span class="kitkat-info">
+                <section class="kitkat-info">
                     <h3>Kitkat Cake</h3>
                     <p>$38.00</p>
-                </span>
+                </section>
             </article>
             <article class="velvet">
                 <picture>
@@ -155,18 +155,16 @@
                     src="images/velvet-cake.jpeg"
                     alt="an image of a velvet cake">
                 </picture>
-                <span class="velvet-info">
-                    <h3>Red velvet<h3>
+                <section class="velvet-info">
+                    <h3>Red velvet</h3>
                     <p>$38.00</p>
-                </span>
-            </article>
+                </section>
             </article>
         </div>
-        </div>
-        <span class="schedule">
+        <section class="schedule">
             <p><i class="fa-solid fa-clock fa-xl"></i>Monday - Saturday: 9am - 4pm</p>
             <p>Sunday: Closed</p>
-        </span>
+        </section>
         <footer>
             <div class="social-media">
                 <i class="fa-brands fa-facebook-square fa-2xl"></i>
