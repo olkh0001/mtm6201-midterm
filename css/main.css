@@ -42,6 +42,19 @@ button {
   cursor: pointer;
 }
 
+footer a {
+  font-family: 'Altona Sans', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.fa-link {
+  padding-right: 10px;
+} 
+
+
 .wrapper {
       width: 90%;
       margin: auto;

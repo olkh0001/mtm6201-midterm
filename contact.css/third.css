@@ -33,6 +33,18 @@
     padding-top: 10px;
   }
 
+  footer a {
+    font-family: 'Altona Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  
+  .fa-link {
+    padding-right: 10px;
+  } 
+
     button {
     border-radius: 30px;
     font-size: 18px;
